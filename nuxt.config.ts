@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
+  ssr: true,        // opcional: si quieres prerenderizado
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   css: ['~/assets/css/tailwind.css'],
@@ -12,5 +13,8 @@ export default defineNuxtConfig({
   },
   devServer: {
     port: 3000
+  },
+  app: {
+    baseURL: '/mi-portfolio/' // importante si GitHub Pages usa repo como subcarpeta
   }
 })
