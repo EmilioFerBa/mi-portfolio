@@ -18,18 +18,6 @@ import { ref, onMounted, watch } from 'vue'
 
 const theme = ref('system')
 
-onMounted(() => {
-  if (typeof window !== 'undefined') {
-    const saved = localStorage.getItem('theme')
-    if (saved) theme.value = saved
-    applyTheme()
-
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-      if (theme.value === 'system') applyTheme()
-    })
-  }
-})
-
 const applyTheme = () => {
   if (typeof window === 'undefined') return
 
@@ -49,6 +37,18 @@ const applyTheme = () => {
 
   localStorage.setItem('theme', theme.value)
 }
+
+onMounted(() => {
+  if (typeof window !== 'undefined') {
+    const saved = localStorage.getItem('theme')
+    if (saved) theme.value = saved
+    applyTheme()
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => {
+      if (theme.value === 'system') applyTheme()
+    })
+  }
+})
 
 watch(theme, applyTheme)
 </script>
