@@ -27,7 +27,7 @@ export default {
             "flask/flask-original-wordmark.svg",
             "html5/html5-original.svg",
             "css3/css3-original-wordmark.svg",
-            "tailwindcss/tailwindcss-original-wordmark.svg",
+            "tailwindcss/tailwindcss-original.svg",
             "mysql/mysql-original.svg",
             "sqlalchemy/sqlalchemy-original.svg",
             "git/git-original-wordmark.svg",
