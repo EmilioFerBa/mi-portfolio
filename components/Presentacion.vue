@@ -1,6 +1,6 @@
 <template>
     <section id="presentacion" class="mt-30 flex flex-col justify-center items-center gap-5 ">
-      <img src="/images/images.png" alt="Banner about" class="w-1/5"/>
+      <img src="/images/foto.jpg" alt="Banner about" class="w-1/5"/>
       <h2>👋 Bienvenido, soy <span class='tc-name'>Emilio</span></h2>
       <p class="text-center text-xl w-3/5">
        <strong>+5 años de experiencia.</strong>

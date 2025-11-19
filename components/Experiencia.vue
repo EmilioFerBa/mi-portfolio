@@ -20,7 +20,7 @@ export default {
         return {
             experiencia: [
                 {
-                    titulo: "👥 Lider de equipo y Desarrollador Full-Stack - Madison MR",
+                    titulo: "👥 Líder de equipo y Desarrollador Full-Stack - Madison MR",
                     periodo: "2021 - Presente",
                     descripcion: "Actualmente lidero un equipo de desarrolladores y gestiono proyectos usando Vue, Python y MySQL entre otras tecnolgías."
                 },

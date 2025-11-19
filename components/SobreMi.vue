@@ -14,7 +14,7 @@
                 </p>
             </section>
             <section>
-                <img src="/images/images.png" alt="Banner about"/>
+                <img class="w-1/5" src="/images/foto.jpg" alt="Banner about"/>
             </section>
             
         </div>
