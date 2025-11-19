@@ -13,8 +13,8 @@
                     aprendiendo 
                 </p>
             </section>
-            <section>
-                <img class="w-1/5" src="/images/foto.jpg" alt="Banner about"/>
+            <section class="w-1/5">
+                <img  src="/images/foto.jpg" alt="Banner about"/>
             </section>
             
         </div>
