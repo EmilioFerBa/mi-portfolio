@@ -18,7 +18,7 @@ export default {
         { name: "Experiencia", link: "#experiencia" },
         { name: "Habilidades", link: "#habilidades" },
         { name: "Proyectos", link: "#proyectos" },
-        { name: "Sobre mi", link: "#sobremi" },
+        { name: "Sobre mí", link: "#sobremi" },
         { name: "Contacto", link: "mailto:emilioferba@hotmail.com"}
         ]
     }
